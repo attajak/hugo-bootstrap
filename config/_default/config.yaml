@@ -1,0 +1,48 @@
+baseURL: https://hbs-skeleton.netlify.app/
+title: Hugo Bootstrap Skeleton
+copyright: 'Copyright © 2016-{year} Razon Yang. All Rights Reserved.'
+defaultContentLanguage: en
+# hasCJKLanguage: true # Uncomment it if your content contains Chinese/Japanese/Korean Languages.
+# defaultContentLanguageInSubdir: true
+# disableLanguages:
+#  - fr
+#  - zh-cn
+#  - zh-tw
+pagination:
+  pagerSize: 10
+# paginatePath: page
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+blackfriday:
+  hrefTargetBlank: true
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+  authors: authors
+
+build:
+  writeStats: true
+
+permalinks:
+  news: /news/:year/:month/:title/
+  blog: /blog/:year/:month/:title/
+
+module:
+  imports:
+    - path: github.com/razonyang/hugo-theme-bootstrap
+#   proxy: https://goproxy.cn
+
+# services:
+#   disqus:
+#     shortname: your-disqus-shortname
+
+markup:
+  highlight:
+    guessSyntax: true
+    lineNos: true
+    noClasses: false
+    lineNumbersInTable: false
