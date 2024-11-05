@@ -2,13 +2,13 @@
 publish = "public"
 
 [build.environment]
-NODE_VERSION = "17.6.0"
-HUGO_VERSION = "0.131.0"
+NODE_VERSION = "22.11.0"
+HUGO_VERSION = "0.137.0"
 HUGO_ENABLEGITINFO = "true"
-GO_VERSION = "1.17.7"
+GO_VERSION = "1.23.0"
 
 [context.production]
-command = "npm install && hugo --minify"
+command = "npm install && hugo --logLevel info --gc --minify"
 
 [context.production.environment]
 HUGO_ENV = "production"
