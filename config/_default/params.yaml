@@ -1,4 +1,4 @@
-# sass_transpiler: 'dartsass' # Uncomment to use Dart Sass, you need to install Dart Sass first.
+# sass_transpiler: 'godartsass' # Uncomment to use Dart Sass, you need to install Dart Sass first.
 
 mainSections:
   - blog
@@ -250,7 +250,7 @@ contact:
     # siteKey: ""
 
 repo:
-  url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
+  url: https://github.com/attajak/hugo-bootstrap
   branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
@@ -258,9 +258,9 @@ repo:
 topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+    github: attajak/hugo-bootstrap
+    # patreon: razonyang
+    paypal: attajak
 
 docs:
   nav:
@@ -307,7 +307,7 @@ social:
   tipeee: yourtipeeeaccount-fr
 
 author:
-  name: Razon Yang
+  name: Attajak Janrak
   # avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
   bio: 'Gopher, PHPer, Full Stack Engineer.'
   company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
@@ -318,9 +318,9 @@ author:
   }
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    email: razonyang@gmail.com
-    github: razonyang/hugo-theme-bootstrap
-    twitter: razonyang
-    patreon: razonyang
-    paypal: razonyang
-    rss: "" # Remove RSS
+    email: attajak@gmail.com
+    github: attajak/hugo-bootstrap
+    twitter: attajak
+    # patreon: razonyang
+    paypal: attajak
+    rss: "feed" # Remove RSS
