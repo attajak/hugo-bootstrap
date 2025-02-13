@@ -75,7 +75,7 @@
     "mustache": "^4.2.0",
     "onchange": "^7.1.0",
     "postcss-cli": "^9.1.0",
-    "rtlcss": "^3.5.0",
+    "rtlcss": "^4.3.0",
     "viewerjs": "^1.10.4",
     "workbox-cacheable-response": "^6.4.2",
     "workbox-expiration": "^6.4.2",
