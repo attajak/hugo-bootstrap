@@ -78,7 +78,7 @@
     "rtlcss": "^4.3.0",
     "viewerjs": "^1.10.4",
     "workbox-cacheable-response": "^7.3.0",
-    "workbox-expiration": "^6.4.2",
+    "workbox-expiration": "^7.3.0",
     "workbox-precaching": "^7.3.0",
     "workbox-routing": "^6.4.2",
     "workbox-strategies": "^6.4.2"
