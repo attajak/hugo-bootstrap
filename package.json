@@ -1,4 +1,25 @@
 {
+  "name": "hugo-bootstrap",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "Hugo + Bootsrap theme.",
+  "main": "index.js",
+  "scripts": {
+    "create": "hugo new content",
+    "build": "HUGO_ENVIRONMENT=production hugo --gc --minify --logLevel info",
+    "server": "hugo server -D -E -F -O --disableFastRender --navigateToChanged --renderToMemory --logLevel info --bind 0.0.0.0 -b http://localhost:1313/",
+    "update:deps": "npm update && hugo mod get -u && hugo mod tidy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attajak/hugo-bootstrap.git"
+  },
+  "author": "attajak (https://github.com/attajak)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/attajak/hugo-fixit-bootstrap/issues"
+  },
+  "homepage": "https://github.com/attajak/hugo-bootstrap#readme",
   "comments": {
     "dependencies": {
       "@algolia/autocomplete-js": "project",
@@ -62,7 +83,5 @@
     "workbox-routing": "^6.4.2",
     "workbox-strategies": "^6.4.2"
   },
-  "devDependencies": {},
-  "name": "hugo-bootstrap",
-  "version": "0.1.0"
+  "devDependencies": {}
 }
