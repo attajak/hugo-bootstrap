@@ -74,7 +74,7 @@
     "mermaid": "^11.4.1",
     "mustache": "^4.2.0",
     "onchange": "^7.1.0",
-    "postcss-cli": "^9.1.0",
+    "postcss-cli": "^11.0.0",
     "rtlcss": "^4.3.0",
     "viewerjs": "^1.10.4",
     "workbox-cacheable-response": "^7.3.0",
